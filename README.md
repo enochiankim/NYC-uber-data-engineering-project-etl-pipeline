@@ -58,10 +58,15 @@ The code can be found here [Link](https://github.com/enochiankim/NYC-uber-data-e
 Used the following command lines
 
 sudo apt-get install update
+
 sudo apt-get install python3-distutils
+
 sudo apt-get install python3-apt
+
 sudo apt-get install wget
+
 wget https://bootstrap.pypa.io/get-pip.py
+
 sudo python3 get-pip.py
 
 ## Step 6: Establish a connection between the VM and the Mage Project using SSH in the Linux Terminal, then initiate a Mage project (while also obtaining the required dependencies).
