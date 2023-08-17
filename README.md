@@ -43,7 +43,7 @@ Google Cloud Platform Components:
 
 ## Step 2: Data Modeling and Constructing an Entity-Relationship Diagram to Enhance Data Comprehension
 
-<img src="Uber_data_model.jpeg">
+<img src="Uber_data_model.PNG">
 
 ## Step 3: Developing the Transformation Code using Python
 
