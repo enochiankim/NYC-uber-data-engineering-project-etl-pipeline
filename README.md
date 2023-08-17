@@ -101,12 +101,16 @@ group by pickup_location_id
 order by Trip_Num desc
 LIMIT 10
 
+<img src="Q3.PNG">
+
 How many trips have been made based on passenger count?
 
 SELECT passenger_count, count(passenger_count) as passenger_trip
 FROM `uber_data_engineering_yt.tbl_analytics`
 group by passenger_count
 order by passenger_trip desc
+
+<img src="Q2.PNG">
 
 How does the average amount vary across different hours of the day?
 
@@ -116,5 +120,6 @@ FROM `my-test-project-392920.uber_data_engineering_yt.fact_table` f join
 group by d.pick_hour
 order by fare desc
 
+<img src="Q1.PNG">
 
 
