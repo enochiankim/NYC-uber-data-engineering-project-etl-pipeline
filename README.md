@@ -1,6 +1,6 @@
 # NYC-uber-data-engineering-project-etl-pipeline
 
-![uber_logo_linkedin_post]()
+![uber_logo_linkedin_post](https://github.com/enochiankim/NYC-uber-data-engineering-project-etl-pipeline/blob/main/uber-logo-map.jpeg)
 
 ## Introduction
 
