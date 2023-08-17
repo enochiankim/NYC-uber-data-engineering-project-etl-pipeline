@@ -51,7 +51,7 @@ The code can be found here [Link](https://github.com/enochiankim/NYC-uber-data-e
 
 ## Step 4: Create a project and a Google Cloud Platform bucket, upload the data, designate the server, and configure the necessary permissions.
 
-# Pic
+<img src="google_cloud.PNG">
 
 ## Step 5: Generate a Virtual Machine Instance within GCP utilizing GCP Compute Engine.
 
