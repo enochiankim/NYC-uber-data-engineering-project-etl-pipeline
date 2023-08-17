@@ -73,6 +73,11 @@ sudo python3 get-pip.py
 
 ## Step 7: Construct a data pipeline using Mage Blocks such as data loader, transformer, and exporters. Integrate your transformation code into the data transformer, making the required modifications.
 
+<p align="center">
+  <img src="etl_flow.PNG" alt="Image" />
+</p>
+
+
 <img src="etl_flow.PNG">
 
 The can can be found here [Link](https://github.com/enochiankim/NYC-uber-data-engineering-project-etl-pipeline/tree/main/etl_pipelines)
