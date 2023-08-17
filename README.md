@@ -91,3 +91,30 @@ The can can be found here [Link](https://github.com/enochiankim/NYC-uber-data-en
 
 <img src="Looker_Dashboard.PNG">
 
+## Step 11: Answered SQL questions and query
+
+What are the top 10 pickup locations ranked by the number of trips?
+
+SELECT pickup_location_id, count(pickup_location_id) Trip_Num
+FROM `uber_data_engineering_yt.fact_table` 
+group by pickup_location_id
+order by Trip_Num desc
+LIMIT 10
+
+How many trips have been made based on passenger count?
+
+SELECT passenger_count, count(passenger_count) as passenger_trip
+FROM `uber_data_engineering_yt.tbl_analytics`
+group by passenger_count
+order by passenger_trip desc
+
+How does the average amount vary across different hours of the day?
+
+SELECT d.pick_hour,round(avg(fare_amount),2) as fare
+FROM `my-test-project-392920.uber_data_engineering_yt.fact_table` f join 
+`uber_data_engineering_yt.datetime_dim` d on f.datetime_id = d.datetime_id
+group by d.pick_hour
+order by fare desc
+
+
+
