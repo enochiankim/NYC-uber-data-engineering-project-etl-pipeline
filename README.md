@@ -115,7 +115,7 @@ order by passenger_trip desc
 How does the average amount vary across different hours of the day?
 
 SELECT d.pick_hour,round(avg(fare_amount),2) as fare
-FROM `my-test-project-392920.uber_data_engineering_yt.fact_table` f join 
+FROM `uber_data_engineering_yt.fact_table` f join 
 `uber_data_engineering_yt.datetime_dim` d on f.datetime_id = d.datetime_id
 group by d.pick_hour
 order by fare desc
