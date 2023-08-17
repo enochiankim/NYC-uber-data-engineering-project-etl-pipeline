@@ -85,7 +85,7 @@ The can can be found here [Link](https://github.com/enochiankim/NYC-uber-data-en
 
 ## Step 9: Employing BigQuery for data querying and executing ETL operations, enabling the data to be utilized for tasks such as data analysis, dashboard creation, and reporting.
 
-Pic of big query
+<img src="bigquery.PNG">
 
 ## Step 10: Develop a dashboard using a dashboarding or reporting software; while Looker Studio was utilized, alternatives such as Power BI, Tableau, and more are viable options as well.
 
