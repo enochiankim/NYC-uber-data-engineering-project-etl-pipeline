@@ -77,9 +77,6 @@ sudo python3 get-pip.py
   <img src="etl_flow.PNG" alt="Image" />
 </p>
 
-
-<img src="etl_flow.PNG">
-
 The can can be found here [Link](https://github.com/enochiankim/NYC-uber-data-engineering-project-etl-pipeline/tree/main/etl_pipelines)
 
 ## Step 8: When the pipeline is prepared, include GCP credentials in the 'io_config.yaml' configuration file. Obtaining the credentials is straightforward through the APIs and Services section in the Google Console.
